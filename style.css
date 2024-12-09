@@ -1,0 +1,48 @@
+/*Por nombre de etiqueta*/
+p{
+    color: rgb(33, 1, 62);
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: rgb(1, 1, 69);
+}
+
+nav img{
+    width: 500px;
+    height: 400px;
+} 
+main img{
+    width: 500px;
+    height: 400px;
+ }
+
+/*Por clase, se pone "." antes de la clase*/
+.Prótesis{
+    background-color: rgba(194, 192, 169, 0.305);
+}
+
+/*Por id*/
+#Personalizada{
+    background-color: rgba(94, 149, 131, 0.311);
+}
+
+/*Selector Universal
+Especificidad determina a quién le hará caso*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Pseudo clases - "hover" cambios al mover el cursos*/
+nav img:hover{
+    width: 550px;
+    height: 450px;
+}
+main img:hover{
+    width: 550px;
+    height: 450px;
+}
