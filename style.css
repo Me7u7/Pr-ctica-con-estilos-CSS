@@ -30,12 +30,13 @@ main img{
 }
 
 /*Selector Universal
-Especificidad determina a quién le hará caso*/
+Especificidad determina a quién le hará caso
 
 *{
     margin: 0;
     padding: 0;
 }
+*/
 
 /*Pseudo clases - "hover" cambios al mover el cursos*/
 nav img:hover{
@@ -45,4 +46,49 @@ nav img:hover{
 main img:hover{
     width: 550px;
     height: 450px;
+}
+
+/*Clase 2*/
+h1{
+    background-color: #38668e;
+    margin: 10px;
+    padding: 10px;
+    border: plum;
+    color: rgb(250, 250, 250);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}   
+
+section{
+    background-color: rgb(40, 40, 114);
+    color: rgb(214, 218, 255);
+    text-decoration-color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}
+
+.product img{
+    height: 380px;
+    width: 374px;
+    object-fit: fill;
+}
+.cierre{
+    background-color: beige;
+    color: rgb(1, 1, 1);
+}
+
+figure{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    padding: 30px;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+#Izquierda{
+    margin-bottom: 160px;
 }
